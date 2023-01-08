@@ -19,7 +19,7 @@ import io from 'socket.io-client';
 import ScrollableChat from './ScrollableChat';
 import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
-const ENDPOINT = 'https://mern-chat-app-livid.vercel.app';
+const ENDPOINT = 'https://mern-chat-app-7aed.onrender.com';
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
